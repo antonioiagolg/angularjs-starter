@@ -18,7 +18,7 @@ Execute o o seguinte comando para copiar os scripts e estilos necessários do di
 $ gulp copy
 ```
 
-Pronto! O projeto está configurado, pronto para que você crie suas aplicações com AngularJS. Para executar o servidor, execute o comando:
+Pronto! O projeto está configurado, pronto para que você crie suas aplicações com AngularJS. Para iniciar o servidor, execute o comando:
 ```
 npm start
 ```
