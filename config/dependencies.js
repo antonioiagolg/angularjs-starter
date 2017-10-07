@@ -1,7 +1,7 @@
 module.exports = {
     css: [
         './node_modules/angular-material/angular-material.min.css',
-        './node_modules/angular-material-icons/angular-material-icons.min.css'
+        './node_modules/angular-material-icons/angular-material-icons.css'
     ],
     js: [
         './node_modules/angular-animate/angular-animate.min.js',

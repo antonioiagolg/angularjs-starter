@@ -4,11 +4,11 @@ var dependencies = require('./config/dependencies');
 
 gulp.task('copy', function() {
     dependencies.css.forEach(function(dependency) {
-        gulp.src(dependency).pipe(gulp.dest('./public/css'));
+        gulp.src(dependency).pipe(gulp.dest('./public/lib/css'));
     });
 
     dependencies.js.forEach(function(dependency) {
-        gulp.src(dependency).pipe(gulp.dest('./public/js'));
+        gulp.src(dependency).pipe(gulp.dest('./public/lib/js'));
     });
 });
 
@@ -16,7 +16,7 @@ gulp.task('copy', function() {
 //
 gulp.task('clean', function() {
     return del([
-        'public/css/**/*',
-        'public/js/**/*',
+        'public/lib/css/**/*',
+        'public/lib/js/**/*',
     ]);
 });
