@@ -28,6 +28,6 @@ Pronto! O projeto está configurado, pronto para que você crie suas aplicaçõe
 npm start
 ```
 
-* Caso novas você instale novas dependências, não esqueça de importá-las no arquivo `index.html`.
+* Caso você instale novas dependências, não esqueça de importá-las no arquivo `index.html`.
 
 * O servidor está configurado para o modo HTML5. Portanto, é necessário habilitar o modo HTML5 no AngularJS. Caso contrário, modifique o arquivo `config/express.js` e retire a tag `base` do arquivo `index.html` para trabalhar normalmente sem o modo HTML5.
