@@ -16,6 +16,8 @@ RUN npm install gulp-cli -g
 RUN npm install
 EXPOSE 3000
 
-RUN gulp clean
-RUN gulp copy
+VOLUME /usr/src/app
+
+RUN gulp uninstall
+RUN gulp install
 CMD ["npm", "start"]
