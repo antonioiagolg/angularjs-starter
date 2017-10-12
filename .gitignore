@@ -1,1 +1,4 @@
 node_modules/
+
+# Libs da public, preenchidas através do gulp
+public/lib/
