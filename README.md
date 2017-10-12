@@ -9,7 +9,7 @@ Um skeleton para aplicações SPA com AngularJS e Angular Material.
 * Caso queira limpar o diretório público, retirando as bibliotecas e retirando as importações do arquivo HTML principal, execute a tarefa `gulp uninstall`.
 
 ### v1.1
-* Possui um `Dockerfile` e um `docker-compose.yml` para um servidor com containers. Basta executar `$ sudo docker-compose up` para construir o container com a aplicação. Ele também cria um volume para sincronizar as modificações durante o desenvolvimento. Agradecimento a @jhorlima pela ideia.
+* Possui um `Dockerfile` e um `docker-compose.yml` para um servidor com containers. Basta executar `$ sudo docker-compose up` para construir o container com a aplicação. Ele também cria um volume para sincronizar as modificações durante o desenvolvimento. Agradecimento a [@jhorlima](https://github.com/jhorlima) pela ideia.
 
 ## Como usar
 
