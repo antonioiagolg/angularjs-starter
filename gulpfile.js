@@ -32,7 +32,7 @@ gulp.task('install', function() {
 //
 gulp.task('uninstall', function() {
     gulp.src(dependencies.options.mainIndex)
-        .pipe(stripLine(['<script', '<link rel="stylesheet"']))
+        .pipe(stripLine(['<script src="lib', '<link rel="stylesheet" href="lib']))
         .pipe(emptyLine({removeComments: false}))
         .pipe(gulp.dest(dependencies.options.basePublic));
 
